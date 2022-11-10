@@ -1,0 +1,16 @@
+if (Type of Admission > 0.5) and (Total Costs <= 11941.71) and (CCS Procedure Description > 24.5) then class: Medical (proba: 95.81%) | based on 6,707 samples
+
+if (Type of Admission > 0.5) and (Total Costs > 11941.71) and (CCS Procedure Code <= 176.5) then class: Medical (proba: 53.93%) | based on 2,253 samples
+
+if (Type of Admission <= 0.5) and (APR DRG Code <= 552.5) and (CCS Procedure Code > 0.5) then class: Surgical (proba: 92.8%) | based on 1,681 samples
+
+if (Type of Admission > 0.5) and (Total Costs > 11941.71) and (CCS Procedure Code > 176.5) then class: Medical (proba: 96.57%) | based on 1,137 samples
+
+if (Type of Admission <= 0.5) and (APR DRG Code > 552.5) and (APR DRG Code <= 906.5) then class: Medical (proba: 97.23%) | based on 723 samples
+
+if (Type of Admission > 0.5) and (Total Costs <= 11941.71) and (CCS Procedure Description <= 24.5) then class: Medical (proba: 60.03%) | based on 673 samples
+
+if (Type of Admission <= 0.5) and (APR DRG Code <= 552.5) and (CCS Procedure Code <= 0.5) then class: Medical (proba: 100.0%) | based on 75 samples
+
+if (Type of Admission <= 0.5) and (APR DRG Code > 552.5) and (APR DRG Code > 906.5) then class: Surgical (proba: 100.0%) | based on 14 samples
+
